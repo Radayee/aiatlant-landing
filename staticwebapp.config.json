@@ -1,9 +1,12 @@
 {
     "routes": [
       {
+        "route": "/ru/chronicles",
+        "serve": "/ru/chronicles/index.html"
+      },
+      {
         "route": "/ru/*",
-        "serve": "/ru/index.html",
-        "statusCode": 200
+        "serve": "/ru/index.html"
       }
     ],
     "navigationFallback": {
