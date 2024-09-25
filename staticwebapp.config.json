@@ -1,0 +1,12 @@
+{
+    "routes": [
+      {
+        "route": "/ru/*",
+        "serve": "/ru/index.html",
+        "statusCode": 200
+      }
+    ],
+    "navigationFallback": {
+      "rewrite": "/index.html"
+    }
+  }
